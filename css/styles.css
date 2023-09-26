@@ -11062,6 +11062,15 @@ body {
   #mainNav.navbar-shrink {
     background-color: rgba(255, 255, 255, 0.5);
   }
+
+  #mainNav.navbar-color-update {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .navba-a-color-fff {
+    color: #fff !important;
+  }
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
