@@ -11281,3 +11281,42 @@ body {
 .btn-primary:hover {
   background-color: #0056b3;
 }
+
+.roadmap-section {
+  background-color: black; /* Use an appropriate background color */
+  padding: 50px 0; /* Add padding for spacing */
+}
+
+.roadmap-title {
+  font-weight: bold; /* Make the title bold */
+  color: white;
+}
+
+.milestone {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.milestone-date {
+  font-weight: bold;
+  color: #333; /* Set date text color */
+}
+
+.milestone-description ul {
+  list-style: none;
+  padding: 0;
+}
+
+.milestone-description li {
+  margin-bottom: 10px;
+}
+
+#curved-border {
+  background-color: #000; /* Background color of the section */
+  border-radius: 50px; /* Adjust the border radius to your preference */
+  padding: 20px; /* Add some padding to create space within the curved border */
+  margin: 20px 0; /* Add margin for spacing */
+}
