@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', event => {
         
         const activeLink = Array.from(navLinks).find(link => link.classList.contains('active'));
         if (activeLink) {
-            const activeLinkCheck =  activeLink.textContent === 'Roadmap' || activeLink.textContent === 'Contact';        
+            const activeLinkCheck =  activeLink.textContent !== 'About';        
             navbarCollapsible.classList.toggle('navbar-color-update', activeLinkCheck );
             
             navLinks.forEach(link => {
