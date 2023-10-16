@@ -11352,3 +11352,24 @@ body {
   border-color: #ffffff;
   color: #ffffff;
 }
+.roadmap {
+  position: relative;
+}
+
+.roadmap::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 40px; /* Adjust the right property to move the line more to the left */
+  border-left: 2px solid white;
+  height: 80%;
+  transform: translate(0, -50%);
+}
+
+.roadmap::after {
+  content: "˅"; /* Change the content to the arrow character */
+  position: absolute;
+  top: 88.5%; /* Adjust the top property to move the arrow further down */
+  right: 35.6px; /* Move the arrow slightly to the left */
+  color: white; /* Set the color of the arrow character */
+}
