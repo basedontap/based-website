@@ -11250,9 +11250,9 @@ body {
 }
 /* Custom styles for project cards */
 .card {
-  border: 1px solid #e9e9e9;
-  border-radius: 10px;
   transition: transform 0.2s;
+  background-color: #0A0A0A
+  
 }
 
 .card:hover {
@@ -11260,8 +11260,9 @@ body {
 }
 
 .card-title {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
 }
 
 .card-text {
@@ -11283,26 +11284,29 @@ body {
 }
 
 .roadmap-section {
-  background-color: black; /* Use an appropriate background color */
-  padding: 50px 0; /* Add padding for spacing */
+  background-color: black;
+  padding: 50px 0; 
 }
 
 .roadmap-title {
-  font-weight: bold; /* Make the title bold */
+  font-weight: bold;
   color: white;
 }
 
 .milestone {
-  background-color: #fff;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
+
 .milestone-date {
   font-weight: bold;
-  color: #333; /* Set date text color */
+  color: white; 
 }
 
 .milestone-description ul {
@@ -11315,8 +11319,36 @@ body {
 }
 
 #curved-border {
-  background-color: #000; /* Background color of the section */
-  border-radius: 50px; /* Adjust the border radius to your preference */
-  padding: 20px; /* Add some padding to create space within the curved border */
-  margin: 20px 0; /* Add margin for spacing */
+  background-color: #000; 
+  border-radius: 50px;
+  padding: 20px; 
+  margin: 20px 0; 
+}
+
+.section-header {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.projects-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.custom-btn {
+  display: block;
+  width: 100%; 
+  padding: 10px 0;
+  border: 2px solid grey;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-outline-dark {
+  border-color: #ffffff;
+  color: #ffffff;
 }
