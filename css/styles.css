@@ -112,10 +112,18 @@
   font-family: 'Nickainley';
   src: url('../assets/fonts/Nickainley.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('../assets/fonts/SpaceGrotesk-Medium.ttf') format('truetype'); 
+  font-weight: 36;
+  font-style: normal;
+}
+
 
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
+  font-family: 'Space Grotesk';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -11062,15 +11070,6 @@ body {
   #mainNav.navbar-shrink {
     background-color: rgba(255, 255, 255, 0.5);
   }
-
-  #mainNav.navbar-color-update {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-  }
-
-  .navba-a-color-fff {
-    color: #fff !important;
-  }
-
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
@@ -11248,6 +11247,7 @@ body {
   height: 100px;
   width: 100px;
 }
+
 /* Custom styles for project cards */
 .card {
   transition: transform 0.2s;
@@ -11352,6 +11352,7 @@ body {
   border-color: #ffffff;
   color: #ffffff;
 }
+
 .roadmap {
   position: relative;
 }
