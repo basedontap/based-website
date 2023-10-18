@@ -343,6 +343,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  width: 100%;
 }
 
 table {
@@ -11179,14 +11180,28 @@ body {
   }
 }
 
+.contact-body {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.91) 0%, rgba(0, 0, 0, 0.00) 100%), url(../assets/img/pizza_cyberpunk_universe-bottom-image_v2.png) !important;
+  background-attachment: scroll !important;
+  background-size: cover !important;
+  background-color: #000 !important;
+  width: 100%;
+  height: 750px;
+}
+
+.contact-body-footer {
+  width: 100%;
+  height: 50%;
+}
+
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 90%, #000 100%), url("../assets/img/pizza_cyberpunk_universe-bottom-image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  width: 100%;
+  height: 50%;
 }
+
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -11227,7 +11242,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 1);
 }
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
@@ -11237,7 +11252,7 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .boost{
   height: 80px;
