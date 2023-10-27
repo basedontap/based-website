@@ -11376,19 +11376,20 @@ body {
   content: "";
   position: absolute;
   top: 50%;
-  right: 40px; /* Adjust the right property to move the line more to the left */
+  right: 40px; 
   border-left: 2px solid white;
   height: 80%;
   transform: translate(0, -50%);
 }
 
 .roadmap::after {
-  content: "˅"; /* Change the content to the arrow character */
+  content: "˅"; 
   position: absolute;
-  top: 88.5%; /* Adjust the top property to move the arrow further down */
-  right: 35.6px; /* Move the arrow slightly to the left */
-  color: white; /* Set the color of the arrow character */
+  top: 88.5%; 
+  right: 35.6px; 
+  color: white; 
 }
+
 
 .border-container {
   border: 2px solid #000;
