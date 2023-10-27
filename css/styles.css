@@ -11262,8 +11262,6 @@ body {
   height: 100px;
   width: 100px;
 }
-
-/* Custom styles for project cards */
 .card {
   transition: transform 0.2s;
   background-color: #0A0A0A
