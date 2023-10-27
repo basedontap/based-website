@@ -11360,22 +11360,22 @@ body {
 }
 
 .roadmap::before {
-  content: "";
+  content: url('../assets/img/project-map-arrow.svg');
   position: absolute;
   top: 50%;
   right: 40px; 
-  border-left: 2px solid white;
+  /* border-left: 2px solid white; */
   height: 80%;
   transform: translate(0, -50%);
 }
 
-.roadmap::after {
+/* .roadmap::after {
   content: "˅"; 
   position: absolute;
   top: 88.5%; 
   right: 35.6px; 
   color: white; 
-}
+} */
 
 
 .border-container {
