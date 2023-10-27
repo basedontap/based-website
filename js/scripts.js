@@ -20,7 +20,6 @@ window.addEventListener('DOMContentLoaded', event => {
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
         }
-
     };
 
     // Shrink the navbar 
@@ -50,5 +49,30 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
+
+    // change the navBar color on Roadmap
+    const navBarColorChange = () => {
+        const navbarCollapsible = document.querySelector('#mainNav');
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        const activeLink = Array.from(navLinks).find(link => link.classList.contains('active'));
+        if (activeLink) {
+            const activeLinkCheck =  activeLink.textContent !== 'About';        
+            navbarCollapsible.classList.toggle('navbar-color-update', activeLinkCheck );
+            
+            navLinks.forEach(link => {
+                link.classList.toggle('navba-a-color-fff', activeLinkCheck);
+            });
+        
+            if (!activeLinkCheck) {
+                navbarShrink();
+            }
+        }
+        
+    };
+
+    navBarColorChange();
+    document.addEventListener('scroll', navBarColorChange);
 
 });
