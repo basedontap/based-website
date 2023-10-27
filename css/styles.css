@@ -11389,3 +11389,97 @@ body {
   right: 35.6px; /* Move the arrow slightly to the left */
   color: white; /* Set the color of the arrow character */
 }
+
+.border-container {
+  border: 2px solid #000;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo-container {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin-right: 10px; 
+  margin-left: -20px; 
+}
+
+
+.info-container {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  flex: 1; 
+}
+
+.token-text {
+  margin-left: -20px;
+}
+
+
+.info-container img {
+  max-width: 100%;
+}
+
+.info-container h4 {
+  font-size: 24px;
+}
+
+.based-stats {
+  margin-right: 100px;
+}
+
+.boost-stats{
+  margin-right: 80px;
+}
+
+.based-title {
+  margin-left: -180px; 
+  margin-right: 100px;
+}
+
+.boost-title {
+  margin-left: -180px;
+}
+
+.based-info {
+  margin-left: -180px;
+  flex: 1; 
+  margin-right: 160px;
+}
+
+.boost-info {
+  margin-left: -180px;
+  margin-right: 160px;
+}
+
+.based-logo {
+  margin-left: -150px; 
+}
+
+.boost-logo {
+  margin-left: -150px
+}
+
+.info-container p {
+  font-size: 16px;
+  flex: 1; 
+}
+
+.border-container {
+  border: 1px solid white; 
+  margin: 0px; 
+  padding: 10px;
+  display: flex;
+  position: relative;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.content {
+  display: flex;
+  align-items: center; 
+}
