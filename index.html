@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>Based On Tap</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     
@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#page-top">
-                <img src="./assets/img/based-newlogo-transparent.png" height="90" alt="...">
+                <img src="./assets/img/based-newlogo-transparent.png" height="90" alt="based launchpad logo">
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fas fa-bars"></i>
@@ -33,9 +33,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#token">Tokens</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Roadmap</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#featuredprojects">Projects</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#token">Tokens</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link" href="#projects">Roadmap</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="#featuredprojects">Projects</a></li> 
                     <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                 </ul>
             </div>
@@ -50,19 +50,20 @@
                     <h2 class="text-white-50 mx-auto mt-2 mb-1"></h2>
                     <h1 class="mx-auto my-0 text-uppercase"></h1>
                     <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
+                    <img class="img-fluid mb-3 mb-md-0" src="assets/img/watermark based.png" alt="based watermark logo">
                 </div>
             </div>
         </div>
     </header>
     
     <!-- About -->
-    <section class="about-section text-center" id="about">
+    <section class="about-section text-center pb-5" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8">
-                    <h2 class="text-white mb-4">What is BASED?</h2>
-                    <p class="text-white-50">
-                        BasedOnTap, a pioneering platform natively integrated with the Bitcoin blockchain, is poised to disrupt the launchpad landscape. Leveraging this native architecture, BasedOnTap offers an array of services that address critical challenges for projects, including management, marketing, audits, and community engagement. Notably, BasedOnTap's forward-looking approach ensures secure access to liquidity for projects building on Bitcoin metaprotocols. In a realm marked by innovation, BasedOnTap represents the vanguard of the Bitcoin ecosystem, redefining the launchpad experience.
+                    <h2 class="text-white mb-5 basedpad-detail-header">What is Basepad?</h2>
+                    <p class="text-white-50 tap-protocol-detail-body-1">
+                        Basedpad is a dynamic community of brazen pioneers within the TAP/Ordinals space where innovation, collaboration, and cutting-edge technology converge. Built on the foundation of creativity and shared purpose, Basedpad brings together builders, artists, intellectuals, entrepreneurs, and investors to drive positive change within the tap ecosystem and beyond.
                     </p>
                 </div>
             </div>
@@ -70,108 +71,46 @@
     </section>
 
     <!-- Token -->
-    <section class="projects-section bg-black" id="token">
+    <section class="projects-section" id="projects">
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-4 col-lg-5 tap-protocol-detail">
-                    <div class="featured-text text-center text-lg-left tap-protocol-detail-container">
-                        <h4 class="logo-name text-white tap-protocol-detail-header">Built on TAP</h4>
-                        <p class="text-white-50 mb-0 tap-protocol-detail-body-1">Founded in early 2023, Based are pioneers in the TAP Protocol ecosystem and in the Ordinals space. TAP is an OrdFi-enabling protocol for Bitcoin Ordinals. It works entirely without the use of L2 chains but utilizes tapping - a simple mechanism to verify transactions within the protocol.</p>
+                <div class="col-xl-7 col-lg-7">
+                    <div class="featured-text text-lg-left">
+                        <h4 class="logo-name text-white tap-protocol-detail-header" >Built on TAP</h4>
+                        <p class="text-white-50 mb-2 tap-protocol-detail-body-1">Born in early 2023, Basedpad are pioneers in the Bitcoin metaprotocols ecosystem, including the TAP/Ordinals space. TAP is an OrdFi-enabling protocol for Bitcoin Ordinals. It works entirely without the use of L2 chains but utilizes tapping - a simple mechanism to verify transactions within the protocol.</p>
+                        </br>
                         <p class="text-white-50 mb-0 tap-protocol-detail-body-2">To learn more about TAP Protocol, visit: </p>
-                        <a class="custom-btn btn-outline-dark text-white tap-protocol-detail-body-a" href="https://trac.network">TAP Protocol website   <img class="tap-protocol-detail-body-allow" src="./assets/img/TAP-Protocol-website-Arrow.svg" alt="TAP Protocol website Arrow">
-                        </a>
+                        </br>
                     </div>
                 </div>
-                <div class="col-xl-8 col-lg-7 tap-protocol-logo"><img class="img-fluid mb-3 mb-md-0" src="assets/img/new-tap-trac.png" alt="tap protocol logo" /></div>
+                <div class="col-xl-5 col-lg-5 col-md-12 featured-text text-lg-left"><img class="img-fluid mb-3 mb-md-0"  id="build-tap-logo" src="assets/img/new-tap-trac.png" alt="tap protocol logo" /></div>   
+                
+                <div class="col-xl-8 col-lg-8">
+                    <div class="featured-text text-lg-left">
+                        </br>
+                        <a class="custom-btn btn-outline-light tap-protocol-detail-body-a col-lg-4 col-md-12" href="https://trac.network">TAP Protocol website <img class="tap-protocol-detail-body-allow" src="./assets/img/TAP-Protocol-website-Arrow.svg" alt="TAP Protocol website Arrow"></a>
+                    </div>
+                </div>
             </div>
+            <!-- Featured Project Row-->
             <br>
-            <div class="border-container">
-                <div class="logo-container">
-                    <img src="assets/img/based-newlogo.png" alt="Based Logo" class="based-logo"/>
-                </div>
-                <div class="info-container">
-                    <h4 class="based-title">The $Based Token</h4>
-                    <p class="based-info" style="font-size: small;">The BASED token, an integral component of our ecosystem, empowers investors with exclusive benefits. As an esteemed BASED token holder, you gain privileged access to OrdiArt Airdrops, a private community of founders and artists, as well as guaranteed whitelistings and elevated staking APYs on the BasedOnTap Launchpad. These incentives serve as a testament to our commitment to enhancing the value proposition for our community. The BASED token is more than a digital asset; it is the cornerstone of our vision to enrich and strengthen the Bitcoin metaprotocols ecosystem, offering a distinctive and rewarding experience for those who choose to join us on this innovative journey.</p>
-                </div>
-                <div class="additional-text">
-                    <p class="text-white based-stats" style="font-size: small;">Max Supply: 1000</p>
-                    <p class="text-white based-stats" style="font-size: small;">Mint Process: 100%</p>
-                </div>
-            </div>
-            <div class="border-container">
-                <div class="logo-container">
-                    <img src="assets/img/Boost-Token-Logo.png" alt="Boost Logo" class="boost-logo"/>
-                </div>
-                <div class="info-container">
-                    <h4 class="boost-title">The $BOOST Token</h4>
-                    <p class="boost-info" style="font-size: small;">The BOOST token is the driving force behind the BasedOnTap Launchpad. BOOST empowers users with a dynamic mechanism for achieving Tier Levels, dictating project token allocations. By staking BOOST tokens, participants not only maximize their potential staking rewards but also gain exclusive access to IDOs on the launchpad.</p>
-                </div>
-                <div class="additional-text">
-                    <p class="text-white boost-stats" style="font-size: small;">Max Supply: 21 Trillion</p>
-                    <p class="text-white boost-stats" style="font-size: small;">Mint Process: 0%</p>
-                </div>
-            </div>
         </div>
     </section>
 
     <!-- Projects-->
+    <!--
     <section class="projects-section bg-black" id="projects">
-        <div class="container px-4 px-lg-5">
-            <br>
-            <br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 project-text text-center text-lg-right">
-                        <h4 class="roadmap-title" style="color: white; text-align: center; ; letter-spacing: 2px;">Project Roadmap</h4>
-                        <img class="roadmap-logo" src="assets/img/Based-X-Boost(1000 - 333px).jpg" alt="Project Roadmap" />
-                        <br>
-                        <div class="roadmap">
-                            <div class="milestone">
-                                <div class="roadmap-arrow"></div>
-                                <div class="milestone-date">Phase 1: Go for Launch(pad)</div>
-                                <div class="milestone-description">
-                                    <ul>
-                                        <li>• Establishment of BASEDOnTap Launchpad.</li>
-                                        <li>• Inviting Tap/Ordinal builders to join our ecosystem.</li>
-                                        <li>• Launching initiatives for community engagement and collaboration.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class = "milestone">
-                                <div class="milestone-date">Phase 2: OrdiArt Airdrops & GameFi Unleashed</div>
-                                <div class="milestone-description">
-                                    <ul>
-                                        <li>• Introducing the GameFi project.</li>
-                                        <li>• Launching OrdiArt to expand the community within BOT GameFi.</li>
-                                        <li>• It features PvP/PvE card gameplay with BOOST tokens for wagers and BASED tokens for winning advantages.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="milestone">
-                                <div class = "milestone-date">Phase 3: BOT Annual Retreat & BOT Genesis</div>
-                                <div class="milestone-description">
-                                    <ul>
-                                        <li>• Invitations for the inaugural BOT retreat sent to BASED holders.</li>
-                                        <li>• Establishment of the BOT Genesis Society, a mentorship program empowering Tap protocol builders.</li>
-                                        <li>• Offering strong financial and technical support to creators shaping the Tap protocol's future through the BOT Genesis Society.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
+        
+    </section> -->
 
     <!-- feature project -->
     <section class="projects-section bg-black" id="featuredprojects">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-12">
-                    <h4 class="section-header text-white text-align: center fw-bold">Featured Projects</h4>
-                    <p class="section-header text-white-50 mb-0 text-align: center">Discover some of our featured projects!</p>
+                    <h4 class="section-header text-white text-align: center fw-bold tap-protocol-detail-header">Featured Projects</h4>
+                    <p class="section-header text-white-50 mb-0 text-align: center tap-protocol-detail-body-1">Discover some of our featured projects!</p>
                     <br>
                 </div>
                 <div class="col-md-4 mb-4">
@@ -256,7 +195,7 @@
             
             <!-- Footer -->
             <footer class="footer small text-center text-white-50">
-                <div class="container px-4 px-lg-5" style="color: white">Copyright &copy; Your Website 2023</div>
+                <div class="container px-4 px-lg-5" style="color: white">Copyright &copy; 2023 Basedpad. All rights reserved. </div>
             </footer>
             
             <!-- Bootstrap core JS -->
