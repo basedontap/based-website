@@ -11335,13 +11335,15 @@ body {
 }
 
 .projects-section {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
+  background-color: #000000;
+
 }
 
 .custom-btn {
   display: block;
-  width: 100%; 
+  /* width: 100% */; 
   padding: 10px 0;
   border: 2px solid grey;
   color: white;
@@ -11524,6 +11526,16 @@ body {
   line-height: 46px;
 }
 
+.basedpad-detail-header {
+  margin-bottom: 12.73px;
+  color: #FFF !important;
+  font-family: Space Grotesk;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+}
+
 .tap-protocol-detail-body-1 {
   color: #FFF !important;
   font-family: Space Grotesk;
@@ -11545,7 +11557,7 @@ body {
 }
 
 .tap-protocol-detail-body-a {
-  width: 41.5%;
+  /* width: 41.5%; */
   color: #FFF !important;
   font-family: Space Grotesk;
   font-size: 14px;
@@ -11556,10 +11568,16 @@ body {
   padding: 12px 10px;
 }
 
+
+
 .tap-protocol-detail-body-allow {
   width: 11px;
 }
 
 .tap-protocol-logo {
   width: 20.2%;
+}
+
+#build-tap-logo {
+  padding: 20px 0px 0px 100px;
 }
