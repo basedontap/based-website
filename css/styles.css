@@ -11612,3 +11612,13 @@ body {
 .white-text {
   color: white;
 }
+
+@media (max-width: 767px) {
+  .custom-text-align {
+      text-align: center;
+  }
+  .pe-5 {
+     padding: 0 20px !important;
+     padding-top: 10px !important;
+}
+}
